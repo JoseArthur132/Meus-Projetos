@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    text-align: center;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    width: 47vw;
+    margin-top: 50vh;
+    border-radius: 5px;
+
+    background: rgb(31, 31, 31);
+    color: white;
+
+     
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    height: 4vh;
+    width: 17vw;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    font-weight: bold;
+    cursor: auto;
+}
+
+button:hover{
+    background-color: rgba(232, 232, 232, 0.527);
+    transition: 0.3s;
+    
+}

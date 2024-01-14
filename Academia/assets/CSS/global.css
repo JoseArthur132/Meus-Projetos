@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+:root{
+    --cor1:#267365;
+    --cor2:#F2CB05;
+    --cor3:#F29F05;
+    --cor4:#F28705;
+    --cor5:#F23030;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: var(--cor3);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-weight: 700;
+}
+
+header span{
+    color: var(--cor1);
+}
+
+#button{
+    padding: 10px;
+    width: 94.7vw;
+    height: 30px;
+    text-align: center;
+    background-color: var(--cor5);
+    
+}
+
+menu{
+    background-color: var(--cor5);   
+    text-align: center;
+}
+
+menu ul{
+    display: none;
+}
+
+menu li{
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid rgba(181, 162, 162, 0.349);
+}
+
+menu li:hover{
+    background-color: var(--cor3);
+    transition-duration: 0.5s;
+}
+
+menu a{
+    text-decoration: none;
+    color: black;
+}
+
+#button{    
+    cursor: pointer;
+}
+
+main .descricao{
+    height: 306px;
+    background-color: gray;
+    color: rgba(251, 251, 251, 0.679);
+    background-image: url(../imagens/foto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main .descricao h1{
+    padding: 10px;
+    font-weight: 700;
+}
+
+main .descricao p{
+    padding: 10px;
+    text-indent: 10px;
+    text-align: center;
+    font-weight: 100;
+}
+
+section footer{
+    background-color: gray;
+    margin-top: 21px;
+}
+
+#micro{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.861);
+    border-radius: 10px;
+    display: grid;
+    border: 3px solid black;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    text-align: center;
+}
+
+
+
+#micro ul{
+    padding: 20px;
+    list-style-type: none;
+    border: 1px solid var(--cor5);
+    border-radius: 10px;
+}
+
+#micro #preço p{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+#micro li{
+    padding: 10px;
+    
+}
+
+#micro li::before{
+    content: "\2713 ";
+    font-size: 1.4rem;
+    color: var(--cor1);
+}

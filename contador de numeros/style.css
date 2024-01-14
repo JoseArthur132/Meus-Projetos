@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header h1{
+
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 5em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+section#numero{
+    height: 35vh;
+
+    font-size: 10em;
+
+    text-align:center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(34, 139, 57);
+}
+
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+ul button{
+    width: 30vw;
+    height: 5vh;
+    margin: 1.7vw;
+
+    border-radius: 5px; 
+    border: 1px solid white;
+    
+    color: rgb(255, 0, 0);
+    background-color: black;
+
+}
+
+ul button:hover{
+    background-color: rgb(120, 118, 118);
+    transition: 0.5s;
+}
