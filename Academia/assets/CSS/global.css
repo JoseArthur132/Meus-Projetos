@@ -7,6 +7,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --cor1:#267365;
     --cor2:#F2CB05;
@@ -94,45 +98,60 @@ main .descricao p{
 }
 
 section footer{
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.994);
     margin-top: 21px;
 }
 
-#micro{
+#Final{
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.861);
-    border-radius: 10px;
-    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.94);
     color: white;
+    border-top: 4px solid var(--cor5);
     text-align: center;
-    display: grid;
-    grid-template-areas: "valores vantagens";
-    grid-template-columns: 1fr 1fr;
 }
 
-
-
-#micro ul{
-    padding: 20px;
-    list-style-type: none;
-    border: 1px solid var(--cor5);
-    border-radius: 10px;
-    grid-area: vantagens;
+#Final h2{
+    font-size: 1.3em;
 }
 
-#micro #preço p{
+#Informacoes{
     padding: 10px;
-    font-size: 1.3rem;
-    grid-area: valores;
+    display: flex;
+    flex-direction: column;
 }
 
-#micro li{
-    padding: 10px;
+#Informacoes a{
+    text-decoration: none;
+    font-weight: 30;
+    color: white;
     
 }
 
-#micro li::before{
-    content: "\2713 ";
-    font-size: 1.4rem;
-    color: var(--cor1);
+#redes{
+    padding: 10px;
+    border-top: 0.2px  solid white;
+    border-bottom:0.2px solid white;
+}
+
+#redes ul{
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#redes ul li a img{
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#Localizacao{
+    padding: 10px;
+}
+
+#Localizacao p{
+    font-weight: 100;
 }

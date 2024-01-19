@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#267365;
+    --cor2:#F2CB05;
+    --cor3:#F29F05;
+    --cor4:#F28705;
+    --cor5:#F23030;
+}
+
+body{
+    background-color: var(--cor5);
+    background-image: url(../imagens/brett-jordan-U2q73PfHFpM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    margin: auto;
+    padding: 20px;
+    height: 608px;
+    width: 270px;
+    background-color: rgba(255, 255, 255, 0.592);
+    font-size: 1.1rem;
+}
+
+form > input{
+    
+}
